@@ -1,0 +1,74 @@
+.Task_main {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 7px;
+    & .Task__input {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        form {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 5px;
+            &  input {
+                width: 315px;
+                padding: 10px;
+            }
+            input:hover {
+                outline: none;
+            }
+        }
+        button {
+            border: none;
+            img {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                cursor: pointer;
+            }
+        }
+    }
+}
+.Task__list {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    overflow: auto;
+    & li {
+        list-style-type: none;
+        & label {
+            display: flex;
+            align-items: center;
+
+            & button {
+                border: none;
+                & img {
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+.Task__btns {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    & button {
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+    }
+}
+.Task__btns:last-child {
+    padding-right: 10px;
+}
+
+.Task__item {
+    & label {
+        display: flex;
+        justify-content: space-between;
+    }
+}

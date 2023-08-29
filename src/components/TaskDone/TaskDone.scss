@@ -1,0 +1,13 @@
+.TaskDone {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    & .TaskDone__list {
+        border: 1px solid gray;
+        max-height: 20px;
+        & li {
+            list-style-type: none;
+            max-height: 20px;
+        }
+    }
+}

@@ -1,0 +1,22 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #000;
+}
+
+.App {
+    width: 400px;
+    min-height: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 15px;
+    -webkit-box-shadow: 0px -1px 24px -2px rgba(255, 255, 255, 0.2);
+    -moz-box-shadow: 0px -1px 24px -2px rgba(255, 255, 255, 0.2);
+    box-shadow: 0px -1px 24px -2px rgba(255, 255, 255, 0.2);
+    border: none;
+}

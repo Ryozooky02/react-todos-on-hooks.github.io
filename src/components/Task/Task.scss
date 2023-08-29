@@ -1,0 +1,16 @@
+.Task {
+   
+    & label {
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        font-size: 20px;
+        font-weight: 700;
+        border-radius: 2px solid  black;
+    }
+}
+.Task__item {
+    border: 1px solid gray;
+}
