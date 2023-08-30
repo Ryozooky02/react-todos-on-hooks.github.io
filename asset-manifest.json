@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/react-todos-on-hooks.github.io/static/css/main.caecff67.css",
+    "main.js": "/react-todos-on-hooks.github.io/static/js/main.622bfd29.js",
+    "static/media/changeIcon.svg": "/react-todos-on-hooks.github.io/static/media/changeIcon.022aa7fe79b60a4666ed9eab4881c4cd.svg",
+    "static/media/toAddIcon.svg": "/react-todos-on-hooks.github.io/static/media/toAddIcon.bfeb1a169b3035f74ed27b83daebd3cf.svg",
+    "index.html": "/react-todos-on-hooks.github.io/index.html",
+    "static/media/deleteIcon.svg": "/react-todos-on-hooks.github.io/static/media/deleteIcon.6dd749a958ebc902e009d3ef583b7537.svg",
+    "main.caecff67.css.map": "/react-todos-on-hooks.github.io/static/css/main.caecff67.css.map",
+    "main.622bfd29.js.map": "/react-todos-on-hooks.github.io/static/js/main.622bfd29.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.caecff67.css",
+    "static/js/main.622bfd29.js"
+  ]
+}
